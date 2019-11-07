@@ -1,0 +1,13 @@
+.Container {
+    flex:1;
+    background: #FFB74D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Details {
+    background: #FFCC80;
+    padding: 10px;
+    margin: 10px;
+}
