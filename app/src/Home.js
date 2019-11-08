@@ -28,7 +28,7 @@ export default function Home() {
                 console.log(error);
             }
         }
-        const randomNumbers = getRandomNumbers(10, 0, 151);
+        const randomNumbers = getRandomNumbers(10, 1, 151);
         loadData(randomNumbers)
     }, [])
 
